@@ -1,0 +1,19 @@
+﻿@ASP_Sandbox_HostAddress = http://localhost:5029
+
+GET {{ASP_Sandbox_HostAddress}}/recipe/
+Accept: application/json
+
+GET {{ASP_Sandbox_HostAddress}}/recipes/
+Accept: application/json
+
+POST {{ASP_Sandbox_HostAddress}}/recipe/
+Accept: application/json
+
+PUT {{ASP_Sandbox_HostAddress}}/recipe/
+Accept: application/json
+
+DELETE {{ASP_Sandbox_HostAddress}}/recipe/
+Accept: application/json
+
+###
+
